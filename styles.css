@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.nav-bar-container {
+    padding: 1rem;
+}
+
+.nav-bar-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    background-color: #070707;
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+.devops-desc-container {
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.devops-tools {
+    display: flex;
+    padding: 1rem 1rem;
+    gap: 2rem;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.version-control {
+    width: 50vw;;
+}
+
+.ci-cd {
+    width: 50vw;
+}
